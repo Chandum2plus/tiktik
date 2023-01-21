@@ -1,0 +1,14 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int num1,num2 sum;
+printf("Enter the first number ");
+scanf(&num1);
+printf("Enter the second number");
+scanf(&num2);
+sum = num1+num2;
+printf("sum of two number is -:",sum);
+getch();
+
+}
