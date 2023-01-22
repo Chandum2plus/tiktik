@@ -9,6 +9,8 @@ class program
 {
 void print()
 {
+Console.WriteLine("CODE OF THE SQUARE OF ANY NUMBER");
+
 int num,Square;
 Console.WriteLine("Enter the any number");
 num=Convert.ToInt32(Console.ReadLine());
