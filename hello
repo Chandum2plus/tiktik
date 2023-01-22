@@ -1,3 +1,26 @@
 hello world 
 hello chandu kumar 
 hello go language
+WRITE A PROGRAM TO PRINT THE SQUARE OF ANY NUMBER ........
+
+Using systerm;
+Using namespace;
+class program
+{
+void print()
+{
+int num,Square;
+Console.WriteLine("Enter the any number");
+num=Convert.ToInt32(Console.ReadLine());
+Square = num*num;
+Console.WriteLine("square of number is -: "+Square);
+}
+Public static void Main(string[] args)
+{
+Program p=new Program();
+p.print();
+Console.ReadLine();
+
+}
+
+}
